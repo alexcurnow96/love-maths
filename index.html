@@ -11,23 +11,24 @@
 <body>
     
     <header>
-        <img class="logo" href="assets/images/logo.png" alt="Love Maths logo">
-        <h1 class="heading"></h1>
+        <h1 class="heading">
+            <img class="logo" src="assets/images/logo.png" alt="logo"> Love Maths
+        </h1>
     </header>
 
     <div class="game-area">
 
         <div class="controls-area">
-            <button class="btn btn-big btn-green">
+            <button data-type="addition" class="btn btn--big btn--green">
                 <i class="fa fa-plus"></i>
             </button>
-            <button class="btn btn-big btn-blue">
+            <button data-type="subtract" class="btn btn--big btn--blue">
                 <i class="fa fa-minus"></i>
             </button>
-            <button class="btn btn-big btn-orange">
+            <button data-type="multiply" class="btn btn--big btn--orange">
                 <i class="fa fa-times"></i>
             </button>
-            <button class="btn btn-big btn-red">
+            <button data-type="division" class="btn btn--big btn--red">
                 <i class="fa fa-divide"></i>
             </button>
         </div>
@@ -41,7 +42,7 @@
             <input id="answer-box"  type="number">
         </div>
 
-        <button class="btn btn-gray">Sumbit Answer</button>
+        <button data-type="submit" class="btn btn--gray">Sumbit Answer</button>
 
     </div>
 
